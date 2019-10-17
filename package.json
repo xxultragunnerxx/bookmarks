@@ -1,6 +1,6 @@
 {
-  "name": "bookmarks-api",
-  "version": "1.0.0",
+  "name": "bookmarks-server",
+  "version": "0.0.1",
   "description": "",
   "main": "src/server.js",
   "scripts": {
@@ -12,21 +12,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^8.1.0",
-    "express": "^4.17.1",
-    "helmet": "^3.21.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
     "morgan": "^1.9.1",
-    "uuid": "^3.3.3",
+    "uuid": "^3.3.2",
     "valid-url": "^1.0.9",
     "winston": "^3.2.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.1",
-    "nodemon": "^1.19.3",
-    "supertest": "^4.0.2"
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.3.0"
   }
 }
